@@ -1,4 +1,4 @@
 try:
-    from .SpacemanX import SpacemanX
+    from .SpacemanX.SpacemanX import makeroom
 except:
-    from SpacemanX import SpacemanX
+    from SpacemanX.SpacemanX import makeroom
